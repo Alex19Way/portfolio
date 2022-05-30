@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <path d="M19 0L5 0C2.239 0 0 2.239 0 5L0 19C0 21.761 2.239 24 5 24L19 24C21.762 24 24 21.761 24 19L24 5C24 2.239 21.762 0 19 0L19 0ZM11 10.199L7.36 12L11 13.796L11 16L5 13.065L5 10.934L11 8L11 10.199L11 10.199ZM19 13.065L13 16L13 13.796L16.64 12L13 10.199L13 8L19 10.935L19 13.065L19 13.065Z" id="Shape" fill="#2C2C2C" fill-rule="evenodd" stroke="none" />
+</svg>
