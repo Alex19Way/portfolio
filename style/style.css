@@ -444,8 +444,8 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: -3px 3px 13px rgba(0, 0, 0, 0.4);
-          box-shadow: -3px 3px 13px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .main img {
@@ -503,6 +503,7 @@ a {
   font-size: 2rem;
   width: 70%;
   margin-top: 5rem;
+  cursor: pointer;
 }
 
 .form-box button:hover, .form-box button:focus {
