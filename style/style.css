@@ -160,7 +160,6 @@ a {
 .intro {
   min-height: 100vh;
   width: 90%;
-  min-width: 450px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,10 +320,34 @@ a {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .intro {
+    min-height: 100vh;
+  }
+  .intro-text {
+    padding: 0rem 1rem;
+  }
+  .background {
+    z-index: -1;
+  }
+  .intro-tecnologie {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .intro-tecnologie h2 {
+    margin-bottom: 3rem;
+    font-size: 4rem;
+  }
+  .intro-tecnologie .icons {
+    margin: 0 auto;
+  }
+}
+
 .project {
   min-height: 90vh;
   width: 90%;
-  min-width: 450px;
   margin: 10vh auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -411,7 +434,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 450px;
   -webkit-box-shadow: -3px 3px 13px rgba(0, 0, 0, 0.4);
           box-shadow: -3px 3px 13px rgba(0, 0, 0, 0.4);
 }
@@ -518,6 +540,12 @@ a {
 @media screen and (max-width: 768px) {
   html {
     font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 40%;
   }
 }
 /*# sourceMappingURL=style.css.map */
