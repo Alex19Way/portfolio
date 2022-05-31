@@ -1,0 +1,43 @@
+html{font-size: 62.5%;color: #2c2c2c;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+*:focus{outline: none;}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #e9e9e9;
+    position: relative;
+}
+
+h1{font-size: 4.5rem;}
+h2{font-size: 3.8rem;}
+h3{font-size: 3rem;}
+h4{font-size: 2.8rem;}
+h5{font-size: 2.4rem;}
+p{font-size: 2.4rem;}
+ul{list-style-type: none;}
+li{font-size: 2.5rem;}
+a{text-decoration: none; color: #2c2c2c;}
+$arancio: #FFAE63;
+$blu: #63AEFF;
+$grey-text: #2c2c2c;
+
+@import 'header';
+@import 'index';
+@import 'progetti';
+@import 'contatti';
+
+@media screen and (max-width: 1300px){
+   html{font-size: 50%;}
+}
+
+@media screen and (max-width: 768px){
+    html{font-size: 45%;}
+ }
+@media screen and (max-width: 500px){
+    html{font-size: 40%;}
+ }
+

@@ -1,0 +1,58 @@
+.project{
+    min-height: 90vh;
+    width: 90%;
+    margin: 10vh auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project h4{
+    font-weight: 900; 
+    font-size: 3rem;
+    color: rgb(77, 77, 77);
+}
+.project p{
+    font-weight: 100; 
+    font-size: 2rem;
+    padding-right: 2rem;
+}
+
+
+.project img{
+    width: 500px;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+    margin: 3rem 0rem;
+}
+.project img:hover{transform: scale(1.1);}
+
+.box{
+    flex: 0.5;
+    padding: 4rem 2rem;
+}
+.box-image{
+    padding: 0rem 2rem;
+}
+
+@media screen and (max-width: 1190px){
+    .project{margin: 5vh auto;}
+    .project img{width: 40vw;}
+    .project h4{font-size: 2.5rem;}
+    .project p{font-size: 1.5rem;}
+}
+
+
+@media screen and (max-width: 768px){
+    .project{margin: 3rem auto;}
+    .box{
+        flex: 1;
+        text-align: center; }
+    .project img{width: 70vw;margin: 0 auto;}
+    .project h4{font-size: 3.5rem;}
+    .project p{
+        font-size: 2.5rem;
+        max-width: 60vw;
+        margin: 0 auto;
+    }
+}
